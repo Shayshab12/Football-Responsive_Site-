@@ -211,7 +211,7 @@ p{
     font-size: 30px;
     margin-top: 20px;
 }
-.login-container {
+.subscribe-container {
     display: flex;
     justify-content: center;
 }
@@ -219,14 +219,14 @@ p{
     display: flex;
     flex-direction: column;
 }
-.login-form input,button{
+.subscribe-form input,button{
     font-size: 2rem;
     margin-top: 10px;
     border: 1px solid lightgray;
     padding-left: 10px;
     border-radius: 15px;
 }
-.login-form button{
+.subscribe-form button{
     background-color: #008B8B;
     color: whitesmoke;
     font-weight: 700;
@@ -234,7 +234,7 @@ p{
     border:0;
     border-radius: 30px;
 }
-.login-form:hover button {
+.subscribe-form:hover button {
     background-color: #2F4F4F;
 }
 hr {
@@ -248,7 +248,7 @@ hr {
     .newsletter {
         font-size: 18px;
     }
-    .login-form input,button {
+    .subscribe-form input,button {
         font-size: 1rem;
     }
 }
